@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ════════════════════════════════════════════════════════════════
+  📖  NOVEL : দাম্পত্য জ্যামিতি ও পারিবারিক শান্তি-শৃঙ্খলা
+       PROJECT : APEX 22.0 | Bengali Novel XML Format
+       INQUIRY : কেন এমন হয় পরিবারে?
+       Format  : XML 1.0 · UTF-8 · GitHub-Safe
+  ════════════════════════════════════════════════════════════════
+-->
+<novel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xml:lang="bn"
+       version="1.0"
+       encoding="UTF-8">
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  METADATA                                               -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <metadata>
+    <title lang="bn">দাম্পত্য জ্যামিতি ও পারিবারিক শান্তি-শৃঙ্খলা</title>
+    <title lang="en">Marital Geometry and Family Harmony</title>
+    <subtitle>কেন এমন হয় পরিবারে?</subtitle>
+    <genre>সামাজিক উপন্যাস | Social Novel</genre>
+    <language>Bengali (বাংলা)</language>
+    <script>Bengali Unicode | UTF-8</script>
+    <font_stack>Hind Siliguri, Noto Sans Bengali, Kalpurush</font_stack>
+    <project>APEX 22.0 | GitHub Geometric v22</project>
+    <status>Draft — Version 1.0</status>
+    <created>2026</created>
+  </metadata>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  CHARACTERS                                             -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <characters>
+
+    <character id="C001" role="protagonist">
+      <name>আরিফ হাসান</name>
+      <gender>পুরুষ</gender>
+      <age>৩৫</age>
+      <description>
+        একজন শান্ত, বিবেচক মানুষ। পেশায় প্রকৌশলী।
+        পরিবারের প্রতি দায়িত্বশীল, কিন্তু দুই পক্ষের
+        মাঝখানে পড়ে প্রায়ই নিঃশব্দ থাকেন।
+      </description>
+      <relationships>
+        <rel type="spouse" ref="C002">স্ত্রী</rel>
+        <rel type="father" ref="C003">পিতা</rel>
+        <rel type="mother" ref="C004">মাতা</rel>
+        <rel type="brother" ref="C005">ভাই</rel>
+        <rel type="sister_in_law" ref="C006">ভাইয়ের বউ</rel>
+      </relationships>
+    </character>
+
+    <character id="C002" role="deuteragonist">
+      <name>মেহেরুন নেসা</name>
+      <gender>নারী</gender>
+      <age>৩০</age>
+      <description>
+        স্বামীর প্রতি নিষ্ঠাবান, কিন্তু শ্বশুরবাড়ির
+        জটিল পারিবারিক কাঠামোয় নিজেকে মানিয়ে নিতে
+        প্রতিদিন সংগ্রাম করেন।
+      </description>
+      <relationships>
+        <rel type="spouse" ref="C001">স্বামী</rel>
+        <rel type="father_in_law" ref="C003">শ্বশুরমশাই</rel>
+        <rel type="mother_in_law" ref="C004">শাশুড়ি</rel>
+        <rel type="brother_in_law" ref="C005">ভাশুর</rel>
+        <rel type="co_sister_in_law" ref="C006">ননদের বউ</rel>
+      </relationships>
+    </character>
+
+    <character id="C003" role="supporting">
+      <name>আব্দুল করিম</name>
+      <gender>পুরুষ</gender>
+      <age>৬৫</age>
+      <description>
+        পরিবারের কর্তা। ঐতিহ্যবাদী মানুষ। সংসারে
+        নিজের কর্তৃত্ব বজায় রাখতে চান।
+      </description>
+    </character>
+
+    <character id="C004" role="supporting">
+      <name>রাহেলা বেগম</name>
+      <gender>নারী</gender>
+      <age>৬০</age>
+      <description>
+        মায়ের ভূমিকায় অতি সক্রিয়। পুত্রবধূর সাথে
+        সম্পর্কে ঘাত-প্রতিঘাত লেগেই থাকে।
+      </description>
+    </character>
+
+    <character id="C005" role="supporting">
+      <name>ইমরান হাসান</name>
+      <gender>পুরুষ</gender>
+      <age>৩৮</age>
+      <description>
+        বড় ভাই। শরিকি সম্পত্তি নিয়ে মাঝেমধ্যে
+        অসন্তুষ্ট। স্ত্রীর প্রভাবে প্রায়ই মত পরিবর্তন করেন।
+      </description>
+    </character>
+
+    <character id="C006" role="supporting">
+      <name>শিরিন আক্তার</name>
+      <gender>নারী</gender>
+      <age>৩৪</age>
+      <description>
+        ভাইয়ের বউ। চালাক, হিসেবি। পারিবারিক রাজনীতিতে
+        দক্ষ। মেহেরুনের সাথে নিরন্তর ঠান্ডা দ্বন্দ্বে লিপ্ত।
+      </description>
+    </character>
+
+  </characters>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  CHAPTERS                                               -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <chapters>
+
+    <!-- ─────────────────────────────────────────────────── -->
+    <chapter number="1">
+      <title>প্রথম অধ্যায় — গৃহের জ্যামিতি</title>
+      <epigraph>
+        &quot;একটি বাড়ি শুধু দেয়াল দিয়ে তৈরি নয়,
+        তৈরি হয় প্রত্যেকের নীরব প্রত্যাশা দিয়ে।&quot;
+      </epigraph>
+      <content>
+        <paragraph>
+          বিকেলের রোদ যখন উঠানের তুলসীতলায় লুটিয়ে পড়ে,
+          তখন রাহেলা বেগম একা বসে থাকেন। হাতে তসবিহ,
+          চোখে এক অদ্ভুত শূন্যতা। বাড়িটি বড়, কিন্তু
+          ভেতরে ভেতরে কোথাও যেন একটি অদৃশ্য রেখা টানা —
+          এপার আর ওপার।
+        </paragraph>
+        <paragraph>
+          আরিফ অফিস থেকে ফেরে সন্ধ্যায়। দরজায় ঢুকতেই
+          বুঝতে পারে আজও বাতাসে কিছু একটা ভাসছে।
+          মেহেরুন রান্নাঘরে, নীরব। মা বারান্দায়, নীরব।
+          দুটি নীরবতার মাঝখানে সে দাঁড়িয়ে — একটি
+          জীবন্ত সেতু, যার দুপাশে দুটি পৃথক পৃথিবী।
+        </paragraph>
+        <paragraph>
+          কেন এমন হয়? এই প্রশ্নটি আরিফ নিজেকে
+          করে না। করলে উত্তর পেত না। কারণ উত্তরটি
+          কোনো একটি কারণে নেই — আছে বছরের পর বছর
+          ধরে জমা হওয়া ছোট ছোট অভিমানের স্তূপে।
+        </paragraph>
+      </content>
+      <conflict_type>পারিবারিক নীরব দূরত্ব</conflict_type>
+      <characters_present>
+        <ref>C001</ref>
+        <ref>C002</ref>
+        <ref>C004</ref>
+      </characters_present>
+    </chapter>
+
+    <!-- ─────────────────────────────────────────────────── -->
+    <chapter number="2">
+      <title>দ্বিতীয় অধ্যায় — শ্বশুরঘরের মানচিত্র</title>
+      <epigraph>
+        &quot;নতুন বউ আসে নতুন স্বপ্ন নিয়ে —
+        কিন্তু পুরনো বাড়ির দেয়ালে নতুন রঙ
+        সহজে মেলে না।&quot;
+      </epigraph>
+      <content>
+        <paragraph>
+          মেহেরুন প্রথম যেদিন এই বাড়িতে এসেছিল,
+          সেদিন সব কিছু উজ্জ্বল মনে হয়েছিল।
+          শাশুড়ি হাসিমুখে এগিয়ে এসেছিলেন।
+          শ্বশুরমশাই মাথায় হাত রেখেছিলেন।
+          কিন্তু সেই উষ্ণতা কোথায় গেল?
+        </paragraph>
+        <paragraph>
+          রাহেলা বেগম বলেন না, কিন্তু তাঁর চোখ বলে —
+          এই বাড়ির নিয়ম আমি ঠিক করি। মেহেরুন শোনে,
+          মানে, তবু একটি অদৃশ্য দেয়াল তৈরি হতে থাকে
+          প্রতিদিন, ইট দিয়ে নয় — কথায়, চাহনিতে,
+          নীরবতায়।
+        </paragraph>
+        <paragraph>
+          শ্বশুরমশাই আব্দুল করিম সাহেব আলাদা মানুষ।
+          তিনি সরাসরি কিছু বলেন না। কিন্তু তাঁর নীরব
+          অনুমোদন বা অননুমোদন — সেটাই এই বাড়ির
+          সবচেয়ে শক্তিশালী ভাষা।
+        </paragraph>
+      </content>
+      <conflict_type>শাশুড়ি-পুত্রবধূ সম্পর্কের টানাপোড়েন</conflict_type>
+      <characters_present>
+        <ref>C002</ref>
+        <ref>C003</ref>
+        <ref>C004</ref>
+      </characters_present>
+    </chapter>
+
+    <!-- ─────────────────────────────────────────────────── -->
+    <chapter number="3">
+      <title>তৃতীয় অধ্যায় — শরিকের হিসাব</title>
+      <epigraph>
+        &quot;একই মায়ের পেটের দুই ভাই —
+        কিন্তু সম্পত্তির দলিল তাদের
+        দুই ভিন্ন মানুষ বানিয়ে দেয়।&quot;
+      </epigraph>
+      <content>
+        <paragraph>
+          ইমরান হাসান বড় ভাই। বয়সে বড়, কিন্তু
+          মনের দিক থেকে সে সবসময় নিজেকে বঞ্চিত
+          মনে করে। বাবার সম্পত্তি ভাগ হলে কী হবে —
+          এই চিন্তা তার ঘুমের মধ্যেও আসে।
+        </paragraph>
+        <paragraph>
+          শিরিন আক্তার, ইমরানের স্ত্রী, বিষয়টাকে
+          আরও জটিল করে তোলে। সে প্রতিদিন সকালে
+          স্বামীর কানে কানে কিছু বলে। সেই কথাগুলো
+          রাতে বড় হয়ে ফেরে — অভিযোগ হয়ে,
+          দাবি হয়ে।
+        </paragraph>
+        <paragraph>
+          আরিফ বোঝে, কিন্তু বলে না। মেহেরুন বোঝে,
+          কিন্তু বলতে পারে না। আব্দুল করিম সাহেব
+          বুঝেও না-বোঝার ভান করেন। আর রাহেলা বেগম
+          মাঝখানে বসে দীর্ঘশ্বাস ফেলেন।
+        </paragraph>
+      </content>
+      <conflict_type>শরিকি সম্পত্তি ও ভাইয়ের বউয়ের দ্বন্দ্ব</conflict_type>
+      <characters_present>
+        <ref>C001</ref>
+        <ref>C002</ref>
+        <ref>C005</ref>
+        <ref>C006</ref>
+      </characters_present>
+    </chapter>
+
+    <!-- ─────────────────────────────────────────────────── -->
+    <chapter number="4">
+      <title>চতুর্থ অধ্যায় — কেন এমন হয়?</title>
+      <epigraph>
+        &quot;প্রশ্নটি সহজ, কিন্তু উত্তর খুঁজতে
+        গেলে পুরো পরিবারের ইতিহাস উল্টে দেখতে হয়।&quot;
+      </epigraph>
+      <content>
+        <paragraph>
+          একদিন রাতে আরিফ একা ছাদে দাঁড়িয়ে থাকে।
+          নিচে বাড়ি, ভেতরে মানুষ — সবাই আপন,
+          তবু সবাই যেন একটু দূরে। সে ভাবে:
+          কেন এমন হয়? কেন একই ছাদের নিচে থেকেও
+          মানুষ একে অপরকে চেনে না?
+        </paragraph>
+        <paragraph>
+          উত্তরটা সহজ নয়। এটা কারও দোষ নয়।
+          এটা সেই অদৃশ্য জ্যামিতির ফল —
+          যেখানে প্রত্যেকে নিজের কেন্দ্র থেকে
+          বৃত্ত আঁকে, আর সেই বৃত্তগুলো কখনো
+          মিলে যায়, কখনো ছেদ করে, কখনো
+          পাশাপাশি চলে — কিন্তু কখনো পুরোপুরি
+          এক হয় না।
+        </paragraph>
+        <paragraph>
+          এটাই দাম্পত্য জ্যামিতি। এটাই পারিবারিক
+          শান্তি-শৃঙ্খলার আসল সংকট। সমাধান আছে —
+          কিন্তু সেই সমাধান খুঁজতে হবে ভেতর থেকে,
+          বাইরে থেকে নয়।
+        </paragraph>
+      </content>
+      <conflict_type>অস্তিত্বগত পারিবারিক সংকট — সমন্বয় ও বোঝাপড়া</conflict_type>
+      <characters_present>
+        <ref>C001</ref>
+        <ref>C002</ref>
+        <ref>C003</ref>
+        <ref>C004</ref>
+        <ref>C005</ref>
+        <ref>C006</ref>
+      </characters_present>
+    </chapter>
+
+  </chapters>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  THEMATIC STRUCTURE                                     -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <themes>
+    <theme id="T1">পারিবারিক কর্তৃত্ব ও প্রজন্মের দ্বন্দ্ব</theme>
+    <theme id="T2">শাশুড়ি-পুত্রবধূ সম্পর্কের জটিলতা</theme>
+    <theme id="T3">শরিকি ভাই ও সম্পত্তির টানাপোড়েন</theme>
+    <theme id="T4">নীরব যোগাযোগ ও ভুল বোঝাবুঝি</theme>
+    <theme id="T5">পারিবারিক শান্তি পুনরুদ্ধারের পথ</theme>
+  </themes>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  FONT SAFETY DECLARATION                                -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <font_declaration>
+    <primary>Hind Siliguri</primary>
+    <secondary>Noto Sans Bengali v3.000</secondary>
+    <fallback>Kalpurush, sans-serif</fallback>
+    <unicode_verified>true</unicode_verified>
+    <conjuncts_tested>ক্ষ জ্ঞ ত্র ষ্ট দ্ধ ল্ল</conjuncts_tested>
+    <encoding>UTF-8</encoding>
+  </font_declaration>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  FOOTER                                                  -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <footer>
+    <project>দাম্পত্য জ্যামিতি ও পারিবারিক শান্তি-শৃঙ্খলা</project>
+    <inquiry>কেন এমন হয় পরিবারে?</inquiry>
+    <version>APEX 22.0 · Novel XML v1.0</version>
+    <format>XML 1.0 · UTF-8 · GitHub-Safe</format>
+  </footer>
+
+</novel>
